@@ -1,0 +1,59 @@
+body {
+  background-image: url('https://st3.depositphotos.com/6171310/37268/v/1600/depositphotos_372688954-stock-illustration-beautiful-wallpaper-splash-watercolor-multicolor.jpg');
+    font-family: Georgia, serif;
+  }
+     
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  h2 {
+    font-family: Georgia, serif;
+    text-align: center;
+    margin-top: 25px;
+    color: black;
+    
+  }
+     
+  #guess-input {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    border: 1px solid #ccc;
+  }
+     
+  #guess-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0CBABA;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+  }
+     
+  button:active {
+      transform: scale(0.95);
+  }
+     
+  .letter {
+    border-radius: 5px;
+      padding: 3px;
+      margin: 3px;
+      min-width: 20px;
+      text-align: center;
+      display: inline-block
+  }
+     
+  .row{
+      margin-bottom: 10px;
+      margin-top: 10px;
+      text-align: center;
+  }
+     
+  .input-area{
+      margin: 30px;
+  }
